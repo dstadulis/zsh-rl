@@ -1,0 +1,6 @@
+#compdef rl
+# SPDX-License-Identifier: MIT
+
+_arguments -s -S \
+  '(- *)'{-h,--help}'[display usage information]' \
+  '*:path:_files'

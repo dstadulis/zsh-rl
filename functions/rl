@@ -1,0 +1,4 @@
+# Autoloadable $fpath entrypoint (`autoload -Uz rl`).
+# SPDX-License-Identifier: MIT
+
+source "${${(%):-%x}:A:h:h}/rl.zsh" && rl "$@"
